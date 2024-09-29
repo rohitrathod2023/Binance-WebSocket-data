@@ -1,0 +1,19 @@
+.coin-toggle {
+  margin: 10px 0;
+}
+
+.coin-toggle select {
+  padding: 10px;
+  font-size: 1.2em;
+  width: 100%;
+  max-width: 300px;
+  border-radius: 6px;
+  background-color: #007bff;
+  color: #ffffff;
+}
+
+@media (min-width: 768px) {
+  .coin-toggle select {
+    max-width: 200px;
+  }
+}

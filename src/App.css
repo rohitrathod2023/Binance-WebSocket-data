@@ -1,0 +1,25 @@
+.app {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+.selection-option {
+  display: flex;
+  justify-content: space-around;
+}
+
+h1 {
+  text-align: center;
+  font-size: 2.5em;
+}
+
+@media (max-width: 768px) {
+  .app {
+    padding: 10px;
+  }
+
+  h1 {
+    font-size: 1.8em;
+  }
+}

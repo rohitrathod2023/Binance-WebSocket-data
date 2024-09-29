@@ -1,0 +1,35 @@
+.interval-buttons {
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+  margin: 10px 0;
+}
+
+.interval-button {
+  padding: 10px 20px;
+  font-size: 1em;
+  background-color: #f0f0f0;
+  border: 1px solid #ccc;
+  cursor: pointer;
+  border-radius: 6px;
+  transition: background-color 0.3s ease;
+}
+
+.interval-button:hover {
+  background-color: #e0e0e0;
+}
+
+.interval-button.active {
+  background-color: #007bff;
+  color: white;
+}
+
+@media (max-width: 768px) {
+  .interval-buttons {
+    flex-direction: column;
+  }
+
+  .interval-button {
+    margin: 5px 0;
+  }
+}
